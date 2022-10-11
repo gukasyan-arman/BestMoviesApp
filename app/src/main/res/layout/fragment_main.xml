@@ -15,7 +15,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="Movie Details"
         app:titleTextColor="@color/white">
 
         <SearchView
@@ -23,10 +22,10 @@
             style="@android:style/Widget.Material.SearchView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:queryHint="@string/search_hint_text"/>
 
     </com.google.android.material.appbar.MaterialToolbar>
 

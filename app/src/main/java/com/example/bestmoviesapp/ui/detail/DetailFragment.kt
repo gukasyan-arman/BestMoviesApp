@@ -66,6 +66,7 @@ class DetailFragment : Fragment() {
                         detailMovieVotes.text = data?.imdbVotes
                         detailMovieReleased.text = data?.Released
                         detailMoviePoster.load(data?.Poster)
+                        detailToolBar.text = data?.Title
                     }
 
                 }
